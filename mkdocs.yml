@@ -2,6 +2,10 @@
 site_name: MkDocs
 site_url: https://shaburoff.github.io/
 
+# Репозиторий
+repo_name: shaburoff.github.io
+repo_url: https://github.com/shaburoff/shaburoff.github.io
+
 # Авторское право
 copyright: Copyright &copy; 2022 - 2023 shaburoff
 
@@ -11,6 +15,7 @@ theme:
   language: ru
   custom_dir: material/overrides
   features: 
+    # - announce.dismiss
     # - navigation.expand
     - navigation.footer
     - navigation.indexes
@@ -51,8 +56,23 @@ theme:
 
 # Плагины
 plugins:
+  - blog:
+      categories_url_format: "category/{slug}"
+      categories_slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
+      draft: true
+      draft_if_future_date: true
+      pagination_per_page: 5
+      pagination_url_format: "page/{page}"
+      pagination_format: "$link_first $link_previous ~2~ $link_next $link_last"
+      pagination_if_single_page: true
+      pagination_keep_content: true
+      post_date_format: long
+      post_url_format: "{categories}/{slug}"
   - search:
       separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+  - tags
 
 # Расширения
 markdown_extensions:
@@ -64,8 +84,47 @@ markdown_extensions:
   - md_in_html
   - toc:
       permalink: true
+      permalink_title: Ссылка на раздел
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
   - pymdownx.betterem:
       smart_enable: all
+  - pymdownx.critic:
+      mode: view
   - pymdownx.caret
   - pymdownx.mark
   - pymdownx.tilde
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      normalize_issue_symbols: true
+      repo_url_shorthand: true
+      user: shaburoff
+      repo: shaburoff.github.io
+  - pymdownx.smartsymbols
+  - pymdownx.snippets:
+      auto_append:
+        - includes/abbreviations.md
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+      combine_header_slug: true
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
+  - pymdownx.tasklist:
+      custom_checkbox: true
+      clickable_checkbox: true

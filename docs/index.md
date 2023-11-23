@@ -43,8 +43,7 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
 The HTML specification is maintained by the W3C.
 
-*[HTML]: Hyper Text Markup Language
-*[W3C]: Бля!!!
+---
 
 !!! note
 
@@ -54,12 +53,43 @@ The HTML specification is maintained by the W3C.
 
 [![tashkent]](tashkent)
 
-test
+:smile:
 
-test2
+=== "Unordered list"
 
-test3
+    * Sed sagittis eleifend rutrum
+    * Donec vitae suscipit est
+    * Nulla tempor lobortis orci
 
-test4
+=== "Ordered list"
 
-test5
+    1. Sed sagittis eleifend rutrum
+    2. Donec vitae suscipit est
+    3. Nulla tempor lobortis orci
+
+
+!!! info inline end "Lorem ipsum"
+
+    Lorem ipsum dolor sit amet, consectetur
+    adipiscing elit. Nulla et euismod nulla.
+    Curabitur feugiat, tortor non consequat
+    finibus, justo purus auctor massa, nec
+    semper lorem quam in massa.
+Important: admonitions that use the inline modifiers must be declared prior to the content block you want to place them beside. If there's insufficient space to render the admonition next to the block, the admonition will stretch to the full width of the viewport, e.g., on mobile viewports.
+
+***
+
+!!! info inline "Lorem ipsum"
+
+    Lorem ipsum dolor sit amet, consectetur
+    adipiscing elit. Nulla et euismod nulla.
+    Curabitur feugiat, tortor non consequat
+    finibus, justo purus auctor massa, nec
+    semper lorem quam in massa.
+Important: admonitions that use the inline modifiers must be declared prior to the content block you want to place them beside. If there's insufficient space to render the admonition next to the block, the admonition will stretch to the full width of the viewport, e.g., on mobile viewports.
+
+??? note
+
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
+    nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
+    massa, nec semper lorem quam in massa.

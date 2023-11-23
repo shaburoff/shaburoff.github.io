@@ -94,3 +94,30 @@ UUID=93c7b617-7558-4d1b-ab4b-a56880811037 /    ext4    defaults        1   1
 	После выполнения данных инструкций внимательно проверьте данный файл на наличие ошибок.
 
 
+++ctrl+alt+del++
+
+- https://github.com/shaburoff
+
+@twitter:twitter
+
+@shaburoff(tm) (c) (r) c/o +/- --> <--> 1st 2nd etc. 5th
+
+- [x] 1st
+- [ ] 2nd
+- [ ] 3rd
+
+| Заголовок1 | Заголовок2 | Заголовок3 |
+|   :----:   |   :----:   |    ----:   |
+|      1     | Содержание | Содержание |
+|      2     | Содержание | Содержание |
+
+Text can be {--deleted--} and replacement text {++added++}. This can also be
+combined into {~~one~>a single~~} operation. {==Highlighting==} is also
+possible {>>and comments can be added inline<<}.
+
+{--
+
+Formatting can also be applied to blocks by putting the opening and closing
+tags on separate lines and adding new lines between the tags and the content.
+
+--}

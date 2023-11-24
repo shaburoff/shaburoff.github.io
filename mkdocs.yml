@@ -57,6 +57,7 @@ theme:
 
 # Плагины
 plugins:
+  - glightbox
   - blog:
       blog_toc: true
       categories_url_format: "category/{slug}"

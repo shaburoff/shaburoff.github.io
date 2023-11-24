@@ -1,3 +1,8 @@
+---
+status: new
+icon: material/emoticon-happy
+---
+
 # Создание файла fstab
 
 При загрузке системы, исходя из данных в файле `/etc/fstab`, монтируются различные разделы и диски, в том числе - корневой раздел.
@@ -121,3 +126,15 @@ Formatting can also be applied to blocks by putting the opening and closing
 tags on separate lines and adding new lines between the tags and the content.
 
 --}
+
+Lorem ipsum dolor sit amet, (1) consectetur adipiscing elit.
+{ .annotate }
+
+1.  :man_raising_hand: I'm an annotation! I can contain `code`, __formatted
+    text__, images, ... basically anything that can be expressed in Markdown.
+
+[Subscribe to our newsletter](#){ .md-button }
+
+[Subscribe to our newsletter](#){ .md-button .md-button--primary }
+
+[Send :fontawesome-solid-paper-plane:](mailto: shaburoff@internet.ru){ .md-button }

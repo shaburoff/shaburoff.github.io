@@ -93,3 +93,26 @@ Important: admonitions that use the inline modifiers must be declared prior to t
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
     nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
     massa, nec semper lorem quam in massa.
+
+***
+
+??? quote "Список"
+
+    === "1-3"
+        
+        1. Sed sagittis eleifend rutrum
+        2. Donec vitae suscipit est
+        3. Nulla tempor lobortis orci
+        
+
+    === "4-6"
+
+        4. Sed sagittis eleifend rutrum
+        5. Donec vitae suscipit est
+        6. Nulla tempor lobortis orci
+        
+| Method      | Description                          |
+| ----------- | ------------------------------------ |
+| `GET`       | :material-check:     Fetch resource  |
+| `PUT`       | :material-check-all: Update resource |
+| `DELETE`    | :material-close:     Delete resource |

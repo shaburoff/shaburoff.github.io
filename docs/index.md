@@ -51,7 +51,7 @@ The HTML specification is maintained by the W3C.
     nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
     massa, nec semper lorem quam in massa.
 
-[![tashkent]](tashkent)
+![tashkent](images/tashkent.png){ .skip-lightbox }
 
 :smile:
 

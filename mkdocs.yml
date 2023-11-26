@@ -1,10 +1,11 @@
 # Информация о проекте
-site_name: MkDocs
+site_name: ParisKomm.uz
 site_url: https://shaburoff.github.io/
 
 # Репозиторий
 repo_name: shaburoff.github.io
 repo_url: https://github.com/shaburoff/shaburoff.github.io
+edit_uri: edit/main/docs/
 
 # Авторское право
 copyright: Copyright &copy; 2022 - 2023 shaburoff
@@ -15,6 +16,8 @@ theme:
   language: ru
   custom_dir: material/overrides
   features: 
+    - content.action.edit
+    - content.action.view
     # - announce.dismiss
     # - navigation.expand
     - navigation.footer
@@ -53,6 +56,9 @@ theme:
   font:
     text: Roboto
     code: Roboto Mono
+  favicon: assets/favicon.png
+  icon:
+    logo: material/image-multiple-outline
   
 
 # Плагины
@@ -91,6 +97,7 @@ plugins:
       caption_position: bottom
   - search:
       separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+  - social
   - tags:
       tags_file: tags.md
 

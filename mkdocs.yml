@@ -82,6 +82,14 @@ plugins:
       post_slugify: !!python/object/apply:pymdownx.slugs.slugify
         kwds:
           case: lower
+  - git-revision-date-localized:
+      enable_creation_date: false
+      type: date
+      timezone: Asia/Tashkent
+      locale: ru
+      exclude:
+        - index.md
+        - tags.md
   - glightbox:
       touchNavigation: true
       loop: false

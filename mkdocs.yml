@@ -70,6 +70,20 @@ extra:
   analytics:
     provider: google
     property: G-P004BN4TJP
+    feedback:
+      title: Вам нравится эта страница?
+      ratings:
+        - icon: material/thumb-up-outline
+          name: Да
+          data: 1
+          note: >-
+            Спасибо за ваш отзыв!
+        - icon: material/thumb-down-outline
+          name: Нет
+          data: 0
+          note: >-
+            Спасибо за ваш отзыв! Помогите нам улучшить эту страницу,
+            используя <a href="https://github.com/shaburoff/shaburoff.github.io/issues/new/?title=[Feedback]+{title}+-+{url}" target="_blank" rel="noopener">форму обратной связи</a>.
   social:
     - icon: fontawesome/solid/house
       link: https://pariskomm.uz/

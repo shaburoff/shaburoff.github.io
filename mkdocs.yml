@@ -1,14 +1,14 @@
 # Информация о проекте
 site_name: ParisKomm.uz
-site_url: https://shaburoff.github.io/
+site_url: https://pariskomm.uz/
 site_author: Игорь Шабуров
 site_description: >-
   Фотоархив прошедших лет
 
 # Репозиторий
-repo_name: shaburoff.github.io
-repo_url: https://github.com/shaburoff/shaburoff.github.io
-edit_uri: edit/main/docs/
+# repo_name: shaburoff.github.io
+# repo_url: https://github.com/shaburoff/shaburoff.github.io
+# edit_uri: edit/main/docs/
 
 # Авторское право
 copyright: Copyright &copy; 2022~2023 Shaburoff/All Rights Reserved.
@@ -19,9 +19,9 @@ theme:
   language: ru
   custom_dir: overrides
   features: 
-    - content.action.edit
-    - content.action.view
-    # - announce.dismiss
+    # - content.action.edit
+    # - content.action.view
+    - announce.dismiss
     # - header.autohide
     # - navigation.expand
     - navigation.footer
@@ -47,7 +47,7 @@ theme:
       primary: indigo
       accent: indigo
       toggle:
-        icon: material/brightness-7
+        icon: material/weather-night
         name: Переключить в темный режим
     # Тёмный режим
     - media: "(prefers-color-scheme: dark)"
@@ -55,7 +55,7 @@ theme:
       primary: black
       accent: indigo
       toggle:
-        icon: material/brightness-4
+        icon: material/weather-sunny
         name: Переключить в светлый режим
   font:
     text: Roboto
@@ -63,12 +63,16 @@ theme:
   favicon: assets/favicon.png
   icon:
     logo: material/image-multiple-outline
+    # repo: fontawesome/brands/github
   
 # Дополнительная конфигурация
 extra:
+  analytics:
+    provider: google
+    property: G-P004BN4TJP
   social:
     - icon: fontawesome/solid/house
-      link: https://shaburoff.github.io/
+      link: https://pariskomm.uz/
 
     - icon: fontawesome/brands/telegram 
       link: https://t.me/+kbL3i1FBI_1iYWNi

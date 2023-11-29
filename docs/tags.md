@@ -1,5 +1,5 @@
-# Tags
+# Теги
 
-Following is a list of relevant tags:
+Ниже приведен список соответствующих тегов:
 
 [TAGS]

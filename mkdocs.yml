@@ -1,6 +1,9 @@
 # Информация о проекте
 site_name: ParisKomm.uz
 site_url: https://shaburoff.github.io/
+site_author: Игорь Шабуров
+site_description: >-
+  Фотоархив прошедших лет
 
 # Репозиторий
 repo_name: shaburoff.github.io
@@ -8,17 +11,18 @@ repo_url: https://github.com/shaburoff/shaburoff.github.io
 edit_uri: edit/main/docs/
 
 # Авторское право
-copyright: Copyright &copy; 2022 - 2023 shaburoff
+copyright: Copyright &copy; 2022~2023 Shaburoff/All Rights Reserved.
 
 # Конфигурация
 theme:
   name: material
   language: ru
-  custom_dir: material/overrides
+  custom_dir: overrides
   features: 
     - content.action.edit
     - content.action.view
     # - announce.dismiss
+    # - header.autohide
     # - navigation.expand
     - navigation.footer
     - navigation.indexes
@@ -60,6 +64,20 @@ theme:
   icon:
     logo: material/image-multiple-outline
   
+# Дополнительная конфигурация
+extra:
+  social:
+    - icon: fontawesome/solid/house
+      link: https://github.com/shaburoff/shaburoff.github.io
+
+    - icon: fontawesome/brands/telegram 
+      link: https://t.me/+kbL3i1FBI_1iYWNi
+
+    - icon: fontawesome/brands/vk
+      link: https://vk.com/
+
+    - icon: fontawesome/solid/envelope
+      link: mailto:<shaburoff@internet.ru>
 
 # Плагины
 plugins:
@@ -109,6 +127,11 @@ plugins:
   - tags:
       tags_file: tags.md
 
+# Хуки
+
+hooks:
+  - overrides/hooks/shortcodes.py
+  - overrides/hooks/translations.py
 
 # Расширения
 markdown_extensions:
@@ -170,8 +193,16 @@ markdown_extensions:
 
 nav:
   - Главная: index.md
-  - Файл fstab:
-    - fstab: fstab.md
   - Блог:
     - blog/index.md
     - Теги: tags.md
+  - Сведения:
+    - overview/index.md
+    - События:
+      - Обновление сайта: overview/events/page-1.md
+    - Новости:
+      - 29.11.2023: overview/news/page-3.md
+      - Обновление: overview/news/page-4.md
+    - О сайте: overview/about.md
+
+    

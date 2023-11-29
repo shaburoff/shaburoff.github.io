@@ -1,0 +1,27 @@
+{#-
+  This file was automatically generated - do not edit
+-#}
+{% extends "base.html" %}
+{% block extrahead %}
+  <link rel="stylesheet" href="{{ 'assets/stylesheets/custom.00c04c01.min.css' | url }}">
+{% endblock %}
+{% block announce %}
+Следите за обновлениями <strong>@ParisKommUz</strong> в
+  <a rel="me" href="https://t.me/+goKND2xf9kwyOGYy">
+    <span class="twemoji telegram">
+      {% include ".icons/fontawesome/brands/telegram.svg" %}
+    </span>
+    <strong>Telegram</strong>
+  </a>
+  и
+  <a href="https://vk.com/">
+    <span class="twemoji vk">
+      {% include ".icons/fontawesome/brands/vk.svg" %}
+    </span>
+    <strong>ВКонтакте</strong>
+  </a>
+{% endblock %}
+{% block scripts %}
+  {{ super() }}
+  <script src="{{ 'assets/javascripts/custom.fe17d8dd.min.js' | url }}"></script>
+{% endblock %}

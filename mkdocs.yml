@@ -120,7 +120,7 @@ plugins:
           case: lower
   - git-revision-date-localized:
       enable_creation_date: false
-      type: date
+      type: timeago
       timezone: Asia/Tashkent
       locale: ru
       exclude:
@@ -220,7 +220,6 @@ nav:
       - Обновление сайта: overview/events/page-1.md
     - Новости:
       - 29.11.2023: overview/news/page-3.md
-      - Обновление: overview/news/page-4.md
     - О сайте: overview/about.md
 
     

@@ -13,7 +13,7 @@
 
 <p align="center">
   <a href="https://github.com/shaburoff/shaburoff.github.io/actions"><img
-    src="https://github.com/shaburoff/shaburoff.github.io/workflows/build/badge.svg?branch=master"
+    src="https://github.com/shaburoff/shaburoff.github.io/workflows/build/badge.svg?branch=gh-pages"
     alt="Build"
   /></a>
 </p>

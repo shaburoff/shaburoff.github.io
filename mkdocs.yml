@@ -120,7 +120,7 @@ plugins:
           case: lower
   - git-revision-date-localized:
       enable_creation_date: false
-      type: timeago
+      type: date
       timezone: Asia/Tashkent
       locale: ru
       exclude:

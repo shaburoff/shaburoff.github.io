@@ -67,6 +67,7 @@ theme:
   
 # Дополнительная конфигурация
 extra:
+  generator: false
   analytics:
     provider: google
     property: G-P004BN4TJP

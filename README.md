@@ -17,7 +17,7 @@
     alt="GitHub last commit (branch)"
   /></a>
   <a href="https://github.com/shaburoff/shaburoff.github.io/actions"><img
-    src="https://github.com/shaburoff/shaburoff.github.io/actions/workflows/static.yml/badge.svg?branch=main"
+    src="https://github.com/shaburoff/shaburoff.github.io/actions/workflows/build.yml/badge.svg?branch=main"
     alt="Build"
   /></a>
   <a href="https://pariskomm.uz/"><img

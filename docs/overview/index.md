@@ -10,6 +10,7 @@ categories:
 
 ## </p><h1 id="01" name="01"><strong>2023-12-17</strong></h1><p>
 
+* Добавлено [Скан 055 - 064](https://pariskomm.uz/blog/scans-055-to-064/).
 * Добавлено [Фото 051 - 060](https://pariskomm.uz/blog/photos-051-to-060/).
 
 ## </p><h1 id="01" name="01"><strong>2023-12-16</strong></h1><p>

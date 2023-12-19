@@ -20,7 +20,7 @@ hide:
 ***
 
 <div id="tcomment"></div>
-<script src="https://cdn.staticfile.org/twikoo/1.6.26/twikoo.all.min.js"></script>
+<script src="https://cdn.staticfile.org/twikoo/1.6.27/twikoo.all.min.js"></script>
 <script>
 twikoo.init({
   envId: 'https://twikoo-kappa-jade.vercel.app/', // 腾讯云环境填 envId；Vercel 环境填地址（https://xxx.vercel.app）

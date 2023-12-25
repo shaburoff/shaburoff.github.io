@@ -8,6 +8,10 @@ categories:
 
 # Сведения
 
+## </p><h1 id="01" name="01"><strong>2023-12-25</strong></h1><p>
+
+* Добавлено [Скан 079 - 089](https://pariskomm.uz/blog/scans-079-to-089/).
+
 ## </p><h1 id="01" name="01"><strong>2023-12-23</strong></h1><p>
 
 * Добавлено [Фото 071 - 080](https://pariskomm.uz/blog/photos-071-to-080/).

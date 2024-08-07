@@ -3,8 +3,8 @@ languageCode = 'en-us'
 theme = "coming-soon"
 
 [params]
-    title = "Coming Soon Hugo" 
-    description = "A simple countdown"
+    title = "Новый Год" 
+    description = ""
     favicon = ""
     message = "УЖЕ СКОРО!!!" 
     release = "Jan 01, 2025" 
@@ -22,4 +22,4 @@ socialIcons = [
 
 [params.twitter]
 	enable = false 
-	username = "mansoorbarri"
+	username = ""
